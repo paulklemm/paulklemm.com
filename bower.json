@@ -1,0 +1,23 @@
+{
+  "name": "paulklemm.com",
+  "version": "0.0.0",
+  "authors": [
+    "Paul Klemm <paul.klemm@googlemail.com>"
+  ],
+  "description": "Personal website",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "paulklemm.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "~3.4.0",
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0"
+  }
+}

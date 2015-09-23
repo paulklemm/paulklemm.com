@@ -107,31 +107,7 @@ a:hover:after {
 }
 
 .full-vertical-height{
-  height:99vh;
-}
-
-.first-entrance{
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 0.5s;
-  /*-webkit-animation-iteration-count: infinite;*/
-}
-
-.second-entrance{
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1.0s;
-  /*-webkit-animation-iteration-count: infinite;*/
-}
-
-.third-entrance{
-  -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1.5s;
-  /*-webkit-animation-iteration-count: infinite;*/
-}
-
-.fourth-entrance{
-  -webkit-animation-duration: 4s;
-  -webkit-animation-delay: 8s;
-  /*-webkit-animation-iteration-count: infinite;*/
+  height:100vh;
 }
 
 .menu-entrance{

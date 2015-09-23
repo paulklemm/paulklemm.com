@@ -19,6 +19,64 @@ a:hover:after {
   width: 100%;
 }*/
 
+.top-bottom-buffer { padding-top: 40px; padding-bottom: 40px;}
+
+#next-move{
+  color: #007D77
+}
+
+#skills{
+  background: url('images/skills_background.png') no-repeat   center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  color: white;
+}
+
+#skills-text{
+  padding-top: 40px;
+  padding-bottom: 50px;
+}
+
+.paper-row{
+  margin-top: 20px;
+}
+
+.top10{ margin-top: 10px; }
+.top20{ margin-top: 20px; }
+.top30{ margin-top: 30px; }
+.top40{ margin-top: 40px; }
+.top50{ margin-top: 50px; }
+.top60{ margin-top: 60px; }
+.top70{ margin-top: 70px; }
+.top80{ margin-top: 80px; }
+.top90{ margin-top: 90px; }
+.top100{ margin-top: 100px; }
+
+.left10{ margin-left: 10px; }
+.left20{ margin-left: 20px; }
+.left30{ margin-left: 30px; }
+.left40{ margin-left: 40px; }
+.left50{ margin-left: 50px; }
+.left60{ margin-left: 60px; }
+.left70{ margin-left: 70px; }
+.left80{ margin-left: 80px; }
+.left90{ margin-left: 90px; }
+.left100{ margin-left: 100px; }
+
+.pattern-background{
+  /* From http://bg.siteorigin.com/ */
+  background-image: url("images/background_pattern.png");
+  background-repeat: repeat;
+}
+
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
 /* https://stackoverflow.com/questions/22196587/how-to-center-align-vertically-the-container-in-bootstrap */
 
 .vertical-center {
@@ -58,7 +116,8 @@ a:hover:after {
 }
 
 
-.background-image{background: url('images/background.jpg') no-repeat   center center fixed;
+.background-image{
+  background: url('images/background.jpg') no-repeat   center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;

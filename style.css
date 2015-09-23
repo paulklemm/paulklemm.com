@@ -21,10 +21,6 @@ a:hover:after {
 
 .top-bottom-buffer { padding-top: 40px; padding-bottom: 40px;}
 
-.low-contrast{
-  color: gray;
-}
-
 #next-move{
   color: #007D77
 }
@@ -101,25 +97,40 @@ a:hover:after {
   align-items: center;
 }
 
+#scroll-down {
+  color: white;
+  min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 90vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
 .full-vertical-height{
   height:99vh;
 }
 
 .first-entrance{
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1.0s;
+  -webkit-animation-delay: 0.5s;
   /*-webkit-animation-iteration-count: infinite;*/
 }
 
 .second-entrance{
   -webkit-animation-duration: 2s;
-  -webkit-animation-delay: 1.5s;
+  -webkit-animation-delay: 1.0s;
   /*-webkit-animation-iteration-count: infinite;*/
 }
 
 .third-entrance{
-  -webkit-animation-duration: 3s;
-  -webkit-animation-delay: 2.5s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-delay: 1.5s;
+  /*-webkit-animation-iteration-count: infinite;*/
+}
+
+.fourth-entrance{
+  -webkit-animation-duration: 4s;
+  -webkit-animation-delay: 8s;
   /*-webkit-animation-iteration-count: infinite;*/
 }
 
@@ -139,8 +150,8 @@ a:hover:after {
 }
 
 .social {
-  padding-right: 5px;
-  color: black;
+  padding-right: 10px;
+  color: #333333;
 }
 
 .social:hover {
@@ -198,3 +209,96 @@ a:hover:after {
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
     background-color: #888;
 }*/
+
+/* Custom Bootstrap Buttons */
+
+.btn-custom-white {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: darkgray;
+}
+
+.btn-custom-white:hover,
+.btn-custom-white:focus,
+.btn-custom-white:active,
+.btn-custom-white.active,
+.open .dropdown-toggle.btn-custom-white {
+  color: #ffffff;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-color: darkgray;
+}
+
+.btn-custom-white:active,
+.btn-custom-white.active,
+.open .dropdown-toggle.btn-custom-white {
+  background-image: none;
+}
+
+.btn-custom-white.disabled,
+.btn-custom-white[disabled],
+fieldset[disabled] .btn-custom-white,
+.btn-custom-white.disabled:hover,
+.btn-custom-white[disabled]:hover,
+fieldset[disabled] .btn-custom-white:hover,
+.btn-custom-white.disabled:focus,
+.btn-custom-white[disabled]:focus,
+fieldset[disabled] .btn-custom-white:focus,
+.btn-custom-white.disabled:active,
+.btn-custom-white[disabled]:active,
+fieldset[disabled] .btn-custom-white:active,
+.btn-custom-white.disabled.active,
+.btn-custom-white[disabled].active,
+fieldset[disabled] .btn-custom-white.active {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-color: darkgray;
+}
+
+.btn-custom-white .badge {
+  color: #00FFFFFF;
+  background-color: #ffffff;
+}
+
+.btn-custom-black {
+  color: #333333;
+  background-color: rgba(0, 0, 0, 0.0);
+  border-color: black;
+}
+
+.btn-custom-black:hover,
+.btn-custom-black:focus,
+.btn-custom-black:active,
+.btn-custom-black.active,
+.open .dropdown-toggle.btn-custom-black {
+  color: #333333;
+  background-color: rgba(0, 0, 0, 0.03);
+  border-color: black;
+}
+
+.btn-custom-black:active,
+.btn-custom-black.active,
+.open .dropdown-toggle.btn-custom-black {
+  background-image: none;
+}
+
+.btn-custom-black.disabled,
+.btn-custom-black[disabled],
+fieldset[disabled] .btn-custom-black,
+.btn-custom-black.disabled:hover,
+.btn-custom-black[disabled]:hover,
+fieldset[disabled] .btn-custom-black:hover,
+.btn-custom-black.disabled:focus,
+.btn-custom-black[disabled]:focus,
+fieldset[disabled] .btn-custom-black:focus,
+.btn-custom-black.disabled:active,
+.btn-custom-black[disabled]:active,
+fieldset[disabled] .btn-custom-black:active,
+.btn-custom-black.disabled.active,
+.btn-custom-black[disabled].active,
+fieldset[disabled] .btn-custom-black.active {
+  background-color: rgba(0, 0, 0, 0.0);
+  border-color: black;
+}
+
+.btn-custom-black .badge {
+  background-color: #ffffff;
+}

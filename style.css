@@ -21,8 +21,22 @@ a:hover:after {
 
 .top-bottom-buffer { padding-top: 40px; padding-bottom: 40px;}
 
+.low-contrast{
+  color: gray;
+}
+
 #next-move{
   color: #007D77
+}
+
+#closing{
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background: url('images/closing_background.png') no-repeat   center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
 #skills{

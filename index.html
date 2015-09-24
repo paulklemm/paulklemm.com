@@ -277,12 +277,12 @@
   <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
   <script src="bower_components/wow/dist/wow.js"></script>
   <script> new WOW().init(); </script>
-  <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+  <!-- <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script> -->
   <script>
   // Display the page after everything is loaded up
-  // $(window).load(function() {
-  //   $('body').show();
-  // });
+  $(window).load(function() {
+    $('body').show();
+  });
   </script>
 </body>
 </html>

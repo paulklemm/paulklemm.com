@@ -1,5 +1,14 @@
 body {
   display: none;
+  /* Fix overflow issue with animation on mobile devices - https://github.com/daneden/animate.css/issues/198 */
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
+html {
+  /* Fix overflow issue with animation on mobile devices - https://github.com/daneden/animate.css/issues/198 */
+  overflow-x: hidden;
+  max-width: 100%;
 }
 
 /* From: http://www.cssportal.com/blog/css-animated-underline-links/ */

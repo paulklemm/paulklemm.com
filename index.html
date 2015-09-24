@@ -8,7 +8,6 @@
   <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
   <meta name="description" content="">
   <meta name="author" content="Paul Klemm">
-  <!-- TODO: Include favicon-->
   <link rel="icon" href="favicon.ico">
 
   <title>Paul Klemm - Data Scientist with focus on Visualization</title>
@@ -19,25 +18,24 @@
   <link rel="stylesheet" href="lib/academicons/academicons.css">
   <link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.css">
   <link rel="stylesheet" href="bower_components/animate.css/animate.css">
-
 </head>
 
 <body>
 
   <div class="background-image full-vertical-height">
     <!-- Static navbar -->
-    <!-- <nav id="custom-bootstrap-menu" class="navbar navbar-default wow fadeIn" data-wow-delay="3.0s" data-wow-duration="1s">
+    <nav id="custom-bootstrap-menu" class="navbar navbar-default wow fadeIn" data-wow-delay="2.5s" data-wow-duration="1s">
     <div class="container-fluid">
     <div class="navbar-header">
   </div>
   <div id="navbar" class="navbar-collapse collapse">
   <ul class="nav navbar-nav navbar-right">
   <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-  <li><a href="#">Blog</a></li>
+  <li><a href="http://paulklemm.com/zenf" target="_blank">Blog</a></li>
 </ul>
 </div>
 </div>
-</nav> -->
+</nav>
 <!-- Begin page content -->
 <div class="container">
   <div class="row vertical-center">
@@ -100,7 +98,7 @@
         <p id="skills-text" class="lead">
           <!-- As research assistant of the University of Magdeburg, I've developed different analysis techniques, published them and presented them on leading visualization conferences. -->
           I work as research assistant at the University of Magdeburg.
-          During my Computational Visualistics studium, I worked as research assistant at the Fraunhofer Institute for Factory Operation and Automation IFF.
+          During my Computational Visualistics studies, I worked as research assistant at the Fraunhofer Institute for Factory Operation and Automation IFF.
         </p>
         <!-- </div> -->
         <!-- <p class="lead">Data scientist with focus on visualization</p> -->
@@ -304,5 +302,11 @@
 <script src="bower_components/wow/dist/wow.js"></script>
 <script> new WOW().init(); </script>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+<script>
+// Display the page after everything is loaded up
+$(window).load(function() {
+  $('body').show();
+});
+</script>
 </body>
 </html>

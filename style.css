@@ -1,3 +1,7 @@
+body {
+    display: none;
+}
+
 /* From: http://www.cssportal.com/blog/css-animated-underline-links/ */
 /*a {
   text-decoration: none;
@@ -101,8 +105,8 @@ a:hover:after {
 
 #scroll-down {
   color: white;
-  min-height: 90%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 90vh; /* These two lines are counted as one :-)       */
+  min-height: 70%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 70vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;

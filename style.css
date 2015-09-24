@@ -87,6 +87,7 @@ a:hover:after {
   background-repeat: repeat;
 }
 
+/* Use to vertically allign text in rows: http://stackoverflow.com/a/20548578/2274058*/
 .vcenter {
     display: inline-block;
     vertical-align: middle;

@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/paulklemm
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://paulklemm.com
+  * I am paulklemm (https://keybase.io/paulklemm) on keybase.
+  * I have a public key ASA2miJvr-QmLL17BrLg8v_l3dv3rxDDw5BgO5H357er6wo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101c8289bfdba8c60353f04975760112b89522d2e172f8d59951eb8e721ee4c38690a",
+            "host": "keybase.io",
+            "kid": "0120369a226fafe4262cbd7b06b2e0f2ffe5dddbf7af10c3c390603b91f7e7b7abeb0a",
+            "uid": "3ff1a1567a26498fb1328d42e8e3be19",
+            "username": "paulklemm"
+        },
+        "service": {
+            "hostname": "paulklemm.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1470125610,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1470125501,
+        "hash": "d34497d1811e4554fd83dcfeeaf04b30c9d2200d5507aaa32edf6c8b4a9e718b33abf2e8d8fff001a21e92c8fd04b546ac01121b5e94ae0815534dd337501979",
+        "seqno": 553729
+    },
+    "prev": "f7c61186a0bb593a790a0003ab37cdabdb017b521c259d65009b4e85864d8d48",
+    "seqno": 9,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgNpoib6/kJiy9eway4PL/5d3b968Qw8OQYDuR9+e3q+sKp3BheWxvYWTFAvV7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYzgyODliZmRiYThjNjAzNTNmMDQ5NzU3NjAxMTJiODk1MjJkMmUxNzJmOGQ1OTk1MWViOGU3MjFlZTRjMzg2OTBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMzY5YTIyNmZhZmU0MjYyY2JkN2IwNmIyZTBmMmZmZTVkZGRiZjdhZjEwYzNjMzkwNjAzYjkxZjdlN2I3YWJlYjBhIiwidWlkIjoiM2ZmMWExNTY3YTI2NDk4ZmIxMzI4ZDQyZThlM2JlMTkiLCJ1c2VybmFtZSI6InBhdWxrbGVtbSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoicGF1bGtsZW1tLmNvbSIsInByb3RvY29sIjoiaHR0cDoifSwidHlwZSI6IndlYl9zZXJ2aWNlX2JpbmRpbmciLCJ2ZXJzaW9uIjoxfSwiY2xpZW50Ijp7Im5hbWUiOiJrZXliYXNlLmlvIGdvIGNsaWVudCIsInZlcnNpb24iOiIxLjAuMTYifSwiY3RpbWUiOjE0NzAxMjU2MTAsImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ3MDEyNTUwMSwiaGFzaCI6ImQzNDQ5N2QxODExZTQ1NTRmZDgzZGNmZWVhZjA0YjMwYzlkMjIwMGQ1NTA3YWFhMzJlZGY2YzhiNGE5ZTcxOGIzM2FiZjJlOGQ4ZmZmMDAxYTIxZTkyYzhmZDA0YjU0NmFjMDExMjFiNWU5NGFlMDgxNTUzNGRkMzM3NTAxOTc5Iiwic2Vxbm8iOjU1MzcyOX0sInByZXYiOiJmN2M2MTE4NmEwYmI1OTNhNzkwYTAwMDNhYjM3Y2RhYmRiMDE3YjUyMWMyNTlkNjUwMDliNGU4NTg2NGQ4ZDQ4Iiwic2Vxbm8iOjksInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAYHXShHXwYzVBl1W2JEaUGdXQtF6PX/rPpcD0j/fmqvgQonogTRVcbQOiYuHEDGZJfI9BOuuuawitCUZ7iV2eAqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFVuS0E2ivOpeGVxVe1wc5KeuruycrNBUA7r/pil98nDo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/paulklemm
+
+==================================================================
